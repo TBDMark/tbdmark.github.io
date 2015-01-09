@@ -254,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 300px;
+	min-height: 100px;
 	width: 100%;
     border-bottom: 2px solid #E0E0E0;
 	
@@ -283,10 +283,7 @@ h1, h2, h3, h4, h5, h6 {
 #aboutwrap {
 	padding-top: 15px;
     padding-bottom: 15px;
-	border-bottom: solid 2px transparent;
-    margin-top: 80px;
-	margin-bottom: 80px;
-    background-color: #F5F5F5;
+	background-color: #F5F5F5;
 }
 
 .name {
@@ -320,30 +317,18 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
-/* Separator About - Parallax Section */
-.sep {
-	background-attachment: fixed;
-	background-position: 50% 0;
-	background-repeat: no-repeat;
-	height: 450px;
-	position: relative;
-}
-.about {
-	background-image: url(../img/about-sep.jpg);
-}
-
 /* Portfolio Wrap Section */
 #portfoliowrap {
 	display: block;
-	margin-top: 80px;
-	margin-bottom: 80px;
+	margin-top: 0px;
+	margin-bottom: 10px;
     background-color: #F5F5F5;
 }
 
 #portfoliowrap h1 {
 	font-weight: 300;
 	text-align: center;
-	margin-top: 120px;
+	margin-top: 30px;
 }
 
 #portfoliowrap h3 {
@@ -374,15 +359,9 @@ h1, h2, h3, h4, h5, h6 {
 	border-bottom: solid 2px #2f2f2f
 }
 
-.portfolio {
-	background-image: url(../img/portfolio-sep.jpg);
-}
-
 /* Processes Wrap Section */
 #processeswrap {
 	display: block;
-	margin-top: 80px;
-	margin-bottom: 80px;
 }
 
 #processeswrap h1 {
@@ -406,8 +385,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Service Wrap */
 #servicewrap {
 	display: block;
-	margin-top: 80px;
-	margin-bottom: 80px;
+	margin-bottom: 10px;
 }
 
 #servicewrap h1 {
@@ -439,7 +417,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Testimonials Wrap */
 #testimonials {
 	display: block;
-	margin-top: 80px;
+	margin-top: 0px;
 	margin-bottom: 80px;
 	background-color: #f3f3f3;
 }
